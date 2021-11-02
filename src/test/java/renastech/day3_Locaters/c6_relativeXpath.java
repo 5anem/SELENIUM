@@ -38,3 +38,15 @@ public class c6_relativeXpath {
 
     }
 }
+
+//Locater approaches
+//first option will be id because it is unique (but we will also need to make sure if it is static)
+//second option can be name class name linktext if it is unique (usually name and classnames are not unique)
+//then i prefer xpath
+
+//    Differences Css and Xpath
+//-- Xpath has custom methods but css doesnt have those
+//-- Xpath has abilty to go from child to parrent and parent to child
+//-- but in css you can only go from parent to child
+//-- css it works little faster then Xpath
+//
