@@ -9,6 +9,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 import renastech.utilities.BrowserUtils;
+import renastech.utilities.SmartBearUtils;
 import renastech.utilities.WebDriverUtil;
 
 import java.util.concurrent.TimeUnit;
@@ -59,6 +60,14 @@ public class c4_SmartBearLogin {
         String expectedTitle="Web Orders";
 
         Assert.assertEquals(actualTitle,expectedTitle);
+    }
+
+    @Test
+    public void TC2_loginVerification(){
+        SmartBearUtils.loginForSmartBear(driver);
+
+        //6- Verify title equals: Web Orders
+        Assert.assertTrue(driver.getTitle().equals("Web Orders"),"Login Failed");
     }
 
 
