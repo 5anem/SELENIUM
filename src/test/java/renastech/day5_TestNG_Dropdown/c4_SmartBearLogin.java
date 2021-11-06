@@ -1,5 +1,6 @@
 package renastech.day5_TestNG_Dropdown;
 
+import com.github.javafaker.Faker;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -50,6 +51,7 @@ public class c4_SmartBearLogin {
         username.sendKeys("Tester");
         //4- Enter password --->test
         WebElement password=driver.findElement(By.id("ctl00_MainContent_password"));
+        Faker faker=new Faker();
         password.sendKeys("test");
         //5- Click “Login” button
         WebElement loginButton=driver.findElement(By.id("ctl00_MainContent_login_button"));
