@@ -22,6 +22,7 @@ public class TestBase {
     @AfterMethod
     public void closing(){
         BrowserUtils.wait(3);
-        driver.close();
+        //driver.quit();//This will close all the tabs
+        driver.close();//will close only current tabe
     }
 }
