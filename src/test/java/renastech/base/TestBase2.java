@@ -18,7 +18,7 @@ public abstract class TestBase2 { //abstracction example
     @AfterMethod
     public void closing(){
         BrowserUtils.wait(2);
-        //DriverUtil.closeDriver();
+        DriverUtil.closeDriver();
     }
 
 }
