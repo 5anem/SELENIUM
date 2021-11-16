@@ -1,9 +1,12 @@
 package renastech.Pages;
 
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import renastech.utilities.DriverUtil;
 
 public abstract class BasePage {
+
+    protected WebDriverWait webDriverWait=new WebDriverWait(DriverUtil.getDriver(),15);
 
     /*
 
