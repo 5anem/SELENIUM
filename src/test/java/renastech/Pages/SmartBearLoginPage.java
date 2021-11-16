@@ -33,6 +33,9 @@ public class SmartBearLoginPage extends BasePage {
         loginButton.click();
 
     }
+    public WebElement getStatusMassegeElement(){
+        return statusMassege;
+    }
 
     public String getStatusMessage(){
         return statusMassege.getText();
