@@ -1,6 +1,5 @@
-package renastech.day_10_POM_ExplicitWait;
+package renastech.day10_POM_ExplicitWait;
 
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import renastech.Pages.SmartBearLoginPage;

@@ -1,11 +1,10 @@
-package renastech.day_10_POM_ExplicitWait;
+package renastech.day10_POM_ExplicitWait;
 
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import renastech.Pages.SeleniumPracticeExplicitWaitPage;
 import renastech.base.TestBase2;
-import renastech.utilities.BrowserUtils;
 import renastech.utilities.DriverUtil;
 import renastech.utilities.PropertiesReadingUtil;
 
